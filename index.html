@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>网络工程工具箱 - 子网 / ACL / 路由在线工具</title>
+
+  <meta name="description" content="网络工程在线工具箱，提供子网计算、ACL生成、静态路由生成、VLAN工具等网络运维常用工具。">
+  <meta name="keywords" content="子网计算器, ACL生成器, 静态路由, 网络工具, VLAN工具, OSPF计算">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px;
+      background: #f7f9fc;
+    }
+
+    h1 {
+      color: #1f4e79;
+    }
+
+    .desc {
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-decoration: none;
+      color: black;
+      transition: 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .sub {
+      font-size: 13px;
+      color: #666;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>网络工程工具箱</h1>
+
+  <p class="desc">
+    提供网络工程常用在线工具：子网计算、ACL生成、静态路由生成、VLAN规划、OSPF计算等。
+  </p>
+
+  <div class="grid">
+
+    <a class="card" href="subnet.html">
+      <div class="title">子网计算器</div>
+      <div class="sub">IP地址 / 掩码 / 网络 / 广播地址计算</div>
+    </a>
+
+    <a class="card" href="acl.html">
+      <div class="title">ACL生成器</div>
+      <div class="sub">快速生成华为 / 思科 ACL 配置</div>
+    </a>
+
+    <a class="card" href="route.html">
+      <div class="title">静态路由生成器</div>
+      <div class="sub">自动生成 ip route 配置</div>
+    </a>
+
+    <a class="card" href="vlan.html">
+      <div class="title">VLAN工具</div>
+      <div class="sub">VLAN批量规划与配置生成</div>
+    </a>
+
+  </div>
+
+  <footer>
+    Network Tools © 2026 | 简单网络工程工具集合
+  </footer>
+
+</body>
+</html>
